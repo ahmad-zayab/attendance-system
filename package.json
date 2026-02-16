@@ -1,0 +1,16 @@
+{
+  "name": "attendance-management-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack HR attendance and leave management system built with React, Node.js, Express, and MongoDB",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
